@@ -1,0 +1,9 @@
+$primary: #5265e1;
+$secondary: #fa5959;
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "globalstyle.css";
+
+.btn-secondary {
+  --bs-btn-color: #fff;
+}
