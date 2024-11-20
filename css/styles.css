@@ -11854,4 +11854,14 @@ textarea.form-control-lg {
   border-bottom: 5px solid red;
 }
 
+.card-browsers .card-img-top.card-size-icon {
+  width: 100px;
+  height: 100px;
+}
+
+.card-browsers .card-footer {
+  background-color: transparent;
+  border-top: 2px dotted lightgrey;
+}
+
 /*# sourceMappingURL=styles.css.map */

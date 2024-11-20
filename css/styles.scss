@@ -11,3 +11,13 @@ $secondary: #fa5959;
   border: 0;
   border-bottom: 5px solid red;
 }
+
+// Browser Cards
+.card-browsers .card-img-top.card-size-icon {
+  width: 100px;
+  height: 100px;
+}
+.card-browsers .card-footer {
+  background-color: transparent;
+  border-top: 2px dotted lightgrey;
+}
