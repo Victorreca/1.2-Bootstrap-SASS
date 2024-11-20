@@ -11864,4 +11864,17 @@ textarea.form-control-lg {
   border-top: 2px dotted lightgrey;
 }
 
+@media (max-width: 767px) {
+  .w-100-mobile {
+    width: 100%;
+  }
+  .nav-tabs .nav-link.active {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .nav-tabs .nav-item {
+    border-bottom: 3px solid lightgray;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */
