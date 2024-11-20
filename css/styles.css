@@ -11849,4 +11849,9 @@ textarea.form-control-lg {
   --bs-btn-color: #fff;
 }
 
+.nav-tabs .nav-link.active {
+  border: 0;
+  border-bottom: 5px solid red;
+}
+
 /*# sourceMappingURL=styles.css.map */
