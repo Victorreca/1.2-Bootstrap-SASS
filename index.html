@@ -41,8 +41,8 @@
 
     <div class="container mt-5 pt-5">
         <div class="row">
-            <div class="col-12 col-md-6 pb-5 pb-md-0">
-                <h1>
+            <div class="col-12 col-md-6 pb-5 pb-md-0 order-2 order-md-1 text-center text-md-start">
+                <h1 class="fw-bold">
                     A Simple Bookmark Manager
                 </h1>
                 <p>
@@ -56,13 +56,13 @@
                     Get it on Firefox
                 </button>
             </div>
-            <div class="col-12 col-md-6 pb-5 pb-md-0">
+            <div class="col-12 col-md-6 pb-0 order-1 order-md-2">
                 <img src="assets/images/illustration-hero.svg" alt="">
             </div>
         </div>
 
         <div class="row">
-            <div class="offset-3 col-6 text-center">
+            <div class="col-12 offset-md-3 col-md-6 text-center">
                 <h2 class="fw-bold">Features</h2>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias dignissimos vero, dolorem beatae
@@ -71,18 +71,18 @@
             </div>
             <div class="col-12 mt-3 mb-5">
                 <div class="row">
-                    <div class="col-5 mx-auto">
+                    <div class="col-12 col-md-9 col-lg-7 col-xl-6 col-xxl-5 mx-auto text-center text-md-start">
                         <!-- Navs -->
-                        <ul class="nav nav-tabs justify-content-between" id="myTab" role="tablist">
-                            <li class="nav-item" role="presentation">
+                        <ul class="nav nav-tabs justify-content-md-between" id="myTab" role="tablist">
+                            <li class="nav-item w-100-mobile" role="presentation">
                                 <a class="nav-link active" id="bookmarking-tab" data-bs-toggle="tab" href="#bookmarking"
                                     role="tab" aria-controls="bookmarking" aria-selected="true">Simple Bookmarking</a>
                             </li>
-                            <li class="nav-item" role="presentation">
+                            <li class="nav-item w-100-mobile" role="presentation">
                                 <a class="nav-link" id="searching-tab" data-bs-toggle="tab" href="#searching" role="tab"
                                     aria-controls="searching" aria-selected="false">Speedy Searching</a>
                             </li>
-                            <li class="nav-item" role="presentation">
+                            <li class="nav-item w-100-mobile" role="presentation">
                                 <a class="nav-link" id="sharing-tab" data-bs-toggle="tab" href="#sharing" role="tab"
                                     aria-controls="sharing" aria-selected="false">Easy Sharing</a>
                             </li>
@@ -96,11 +96,11 @@
                             <div class="tab-pane fade show active" id="bookmarking" role="tabpanel"
                                 aria-labelledby="bookmarking-tab">
                                 <div class="row">
-                                    <div class="col-6 d-flex justify-content-center">
+                                    <div class="col-12 col-md-6 d-flex justify-content-center mb-4 mb-md-0">
                                         <img src="assets/images/illustration-features-tab-1.svg" alt="">
 
                                     </div>
-                                    <div class="col-5 d-flex align-items-center">
+                                    <div class="col-12 col-md-5 d-flex align-items-center text-center text-md-start">
                                         <div>
                                             <h3>Bookmark in one click</h3>
                                             <p>Organize your bookmarks however you like. Ou simple drag-and-drop
@@ -115,11 +115,11 @@
                             </div>
                             <div class="tab-pane fade" id="searching" role="tabpanel" aria-labelledby="searching-tab">
                                 <div class="row">
-                                    <div class="col-6 d-flex justify-content-center">
+                                    <div class="col-12 col-md-6 d-flex justify-content-center mb-4 mb-md-0">
                                         <img src="assets/images/illustration-features-tab-2.svg" alt="">
 
                                     </div>
-                                    <div class="col-5 d-flex align-items-center">
+                                    <div class="col-12 col-md-5 d-flex align-items-center text-center text-md-start">
                                         <div>
                                             <h3>Intelligent search</h3>
                                             <p>Our powerful search feature with help you find saved sites in no time at
@@ -133,11 +133,11 @@
                             </div>
                             <div class="tab-pane fade" id="sharing" role="tabpanel" aria-labelledby="sharing-tab">
                                 <div class="row">
-                                    <div class="col-6 d-flex justify-content-center">
+                                    <div class="col-12 col-md-6 d-flex justify-content-center mb-4 mb-md-0">
                                         <img src="assets/images/illustration-features-tab-3.svg" alt="">
 
                                     </div>
-                                    <div class="col-5 d-flex align-items-center">
+                                    <div class="col-12 col-md-5 d-flex align-items-center text-center text-md-start">
                                         <div>
                                             <h3>Share your bookmarks</h3>
                                             <p>Easily share your bookmarks and collections with others. Create a
@@ -155,7 +155,60 @@
                 </div>
             </div>
         </div>
+
+        <div class="row my-5">
+            <div class="col-12 offset-md-3 col-md-6 text-center">
+                <h2 class="fw-bold">Download the extension</h2>
+                <p>
+                    We've got more browsers in the pipeline. Please do let us know if you've got a favourite you'd like
+                    us to prioritze.
+                </p>
+            </div>
+
+            <div class="row card-browsers gap-md-3 justify-content-center mt-4 mx-auto">
+                <div class="col-12 col-md-5 col-lg-3">
+                    <div class="card text-center border-0 shadow rounded-4">
+                        <img src="assets/images/logo-chrome.svg" class="card-img-top card-size-icon mx-auto mt-4 mb-3"
+                            alt="chrome">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Add to Chrome</h5>
+                            <p class="card-text">Minimum version 62</p>
+                        </div>
+                        <div class="card-footer py-3">
+                            <a href="#" class="btn btn-primary w-100">Add & Install Extension</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-5 col-lg-3 pt-5">
+                    <div class="card text-center border-0 shadow rounded-4">
+                        <img src="assets/images/logo-firefox.svg" class="card-img-top card-size-icon mx-auto mt-4 mb-3"
+                            alt="chrome">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Add to Firefox</h5>
+                            <p class="card-text">Minimum version 55</p>
+                        </div>
+                        <div class="card-footer py-3">
+                            <a href="#" class="btn btn-primary w-100">Add & Install Extension</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-5 col-lg-3 pt-5 mt-5">
+                    <div class="card text-center border-0 shadow rounded-4">
+                        <img src="assets/images/logo-opera.svg" class="card-img-top card-size-icon mx-auto mt-4 mb-3"
+                            alt="chrome">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Add to Opera</h5>
+                            <p class="card-text">Minimum version 46</p>
+                        </div>
+                        <div class="card-footer py-3">
+                            <a href="#" class="btn btn-primary w-100">Add & Install Extension</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+    <!-- </div> -->
 
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
