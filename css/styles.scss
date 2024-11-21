@@ -1,5 +1,7 @@
 $primary: #5265e1;
 $secondary: #fa5959;
+$form-feedback-invalid-color: burlywood;
+$form-feedback-valid-color: #62ff00;
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 @import "globalstyle.css";
@@ -13,14 +15,35 @@ $secondary: #fa5959;
 }
 
 // Browser Cards
-.card-browsers .card-img-top.card-size-icon {
-  width: 100px;
-  height: 100px;
+.card-browsers {
+  .card-img-top.card-size-icon {
+    width: 100px;
+    height: 100px;
+  }
+  .card-footer {
+    background-color: transparent;
+    border-top: 2px dotted lightgrey;
+  }
 }
-.card-browsers .card-footer {
-  background-color: transparent;
-  border-top: 2px dotted lightgrey;
+
+// Pre-footer
+.pre-footer {
+  .form-control::placeholder {
+    color: lightgrey;
+  }
 }
+
+// Footer
+.bg-footer {
+  background-color: #242946;
+  .nav {
+    a {
+      color: white;
+    }
+  }
+}
+
+// Media queries
 @media (max-width: 767px) {
   .w-100-mobile {
     width: 100%;
@@ -29,9 +52,6 @@ $secondary: #fa5959;
     width: 50%;
     margin: 0 auto;
   }
-  //   .nav-tabs .nav-link {
-  //     border-bottom: 3px solid lightgray;
-  //   }
   .nav-tabs .nav-item {
     border-bottom: 3px solid lightgray;
   }
