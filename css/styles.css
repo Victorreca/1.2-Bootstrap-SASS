@@ -11878,11 +11878,79 @@ textarea.form-control-lg {
   border-bottom: 5px solid #fa5959;
 }
 
+.bg-blue-image {
+  background-image: url("../assets/icons/bg-rounded-blue.svg");
+  background-repeat: no-repeat, repeat;
+  background-size: 200px;
+  background-position: right 0px top 20%;
+}
+@media (min-width: 300px) {
+  .bg-blue-image {
+    background-size: 220px;
+    background-position: right 0px top 20%;
+  }
+}
+@media (min-width: 350px) {
+  .bg-blue-image {
+    background-size: 250px;
+    background-position: right 0px top 25%;
+  }
+}
+@media (min-width: 400px) {
+  .bg-blue-image {
+    background-size: 280px;
+    background-position: right 0px top 30%;
+  }
+}
+@media (min-width: 450px) {
+  .bg-blue-image {
+    background-size: 310px;
+    background-position: right 0px top 35%;
+  }
+}
+@media (min-width: 500px) {
+  .bg-blue-image {
+    background-size: 340px;
+    background-position: right 0px top 40%;
+  }
+}
+@media (min-width: 550px) {
+  .bg-blue-image {
+    background-size: 370px;
+    background-position: right 0px top 45%;
+  }
+}
+@media (min-width: 768px) {
+  .bg-blue-image {
+    background-size: 280px;
+    background-position: right 0px top 75%;
+  }
+}
+@media (min-width: 992px) {
+  .bg-blue-image {
+    background-size: 375px;
+    background-position: bottom 0px right 0px;
+  }
+}
+@media (min-width: 1200px) {
+  .bg-blue-image {
+    background-size: 450px;
+    background-position: bottom 0px right 0px;
+  }
+}
+@media (min-width: 1400px) {
+  .bg-blue-image {
+    background-size: 500px;
+    background-position: bottom 0px right 0px;
+  }
+}
+
 .navbar-nav .nav-link:hover {
   color: #fa5959;
 }
 .navbar-nav a.nav-link {
   color: #000;
+  letter-spacing: 3px;
 }
 
 .card-browsers .card-img-top.card-size-icon {
@@ -11891,7 +11959,8 @@ textarea.form-control-lg {
 }
 .card-browsers .card-footer {
   background-color: transparent;
-  border-top: 2px dotted lightgrey;
+  border-top: 5px solid transparent;
+  border-image: url("../assets/icons/bg-dots.svg") 5 stretch;
 }
 
 .accordion-button:hover {
@@ -11927,7 +11996,7 @@ textarea.form-control-lg {
 
 .was-validated .form-control:invalid {
   border: 4px solid #fa5959;
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' width='12' height='12' fill='none' stroke='%23dc3545'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23dc3545' stroke='none'/%3e%3c/svg%3e");
+  background-image: url("../assets/icons/icon-error.svg");
 }
 
 .invalid-feedback {
@@ -12002,6 +12071,65 @@ textarea.form-control-lg {
 @media (min-width: 768px) {
   .first-accordion {
     border-top: var(--bs-accordion-border-width) solid var(--bs-accordion-border-color) !important;
+  }
+}
+@media (max-width: 991px) {
+  header .bg-light {
+    background-color: transparent !important;
+  }
+  header .navbar {
+    padding: 0;
+  }
+  header .navbar .container {
+    background-color: #f8f9fa;
+    padding: 1.5rem;
+  }
+  header .navbar .container .navbar-toggler-icon {
+    background-image: url("../assets/icons/icon-hamburger.svg");
+  }
+  header .navbar .container.menu-open {
+    background-color: rgba(47, 53, 79, 0.9);
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+  }
+  header .navbar .container.menu-open .navbar-toggler .navbar-toggler-icon {
+    background-image: url("../assets/icons/icon-hamburguer-cross-white-v2.svg");
+    width: 1.5em;
+  }
+  header .navbar .container .navbar-toggler {
+    box-shadow: none;
+    border: 0;
+    padding-right: 0;
+  }
+  header .navbar .container .navbar-nav {
+    text-align: center;
+  }
+  header .navbar .container .navbar-nav .mt-mobile-social-icons {
+    margin-top: 30vh;
+  }
+  header .navbar .container .navbar-nav a.nav-link {
+    color: white;
+    padding: 20px 0;
+  }
+  header .navbar .container .navbar-nav a.nav-link.first-nav-link {
+    border-top: 1px solid #b0acac;
+  }
+  header .navbar .container .navbar-nav a.nav-link:last-child {
+    border-bottom: 1px solid #b0acac;
+  }
+  header .navbar .container .navbar-nav .nav-item:last-child {
+    padding-top: 20px;
+  }
+  header .navbar .container .navbar-nav .nav-item .btn-secondary {
+    width: 100%;
+    background-color: transparent;
+    border-color: white;
+  }
+  header .navbar .container .navbar-nav .nav-item .btn-secondary:active,
+  header .navbar .container .navbar-nav .nav-item .btn-secondary:hover {
+    color: white;
   }
 }
 
