@@ -11945,6 +11945,67 @@ textarea.form-control-lg {
   }
 }
 
+.bg-blue-image-rotate {
+  background-image: url("../assets/icons/bg-rounded-blue-reverse.svg");
+  background-repeat: no-repeat, repeat;
+  background-size: 200px;
+  background-position: left 0px top 60%;
+}
+@media (min-width: 273px) {
+  .bg-blue-image-rotate {
+    background-size: 220px;
+    background-position: left 0px top 62%;
+  }
+}
+@media (min-width: 300px) {
+  .bg-blue-image-rotate {
+    background-size: 220px;
+    background-position: left 0px top 64%;
+  }
+}
+@media (min-width: 400px) {
+  .bg-blue-image-rotate {
+    background-size: 320px;
+    background-position: left 0px top 65%;
+  }
+}
+@media (min-width: 500px) {
+  .bg-blue-image-rotate {
+    background-size: 340px;
+    background-position: left 0px top 65%;
+  }
+}
+@media (min-width: 550px) {
+  .bg-blue-image-rotate {
+    background-size: 370px;
+    background-position: left 0px top 66%;
+  }
+}
+@media (min-width: 768px) {
+  .bg-blue-image-rotate {
+    background-size: 280px;
+    background-position: left 0px top 90%;
+  }
+}
+@media (min-width: 992px) {
+  .bg-blue-image-rotate {
+    background-size: 375px;
+    background-position: bottom 0px left 0px;
+  }
+}
+@media (min-width: 1200px) {
+  .bg-blue-image-rotate {
+    background-size: 450px;
+    background-position: bottom 0px left 0px;
+  }
+}
+@media (min-width: 1400px) {
+  .bg-blue-image-rotate {
+    background-size: 500px;
+    background-position: bottom 0px left 0px;
+  }
+}
+
 .navbar-nav .nav-link:hover {
   color: #fa5959;
 }

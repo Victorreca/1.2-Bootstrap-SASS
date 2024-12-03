@@ -1,0 +1,7 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 75 50" width="75" height="50">
+	<title>bg-rounded-blue-svg</title>
+	<style>
+		.s0 { fill: #4f62d7 } 
+	</style>
+	<path class="s0" d="m75 25c0 3.3-0.6 6.5-1.9 9.6-1.3 3-3.1 5.8-5.4 8.1-2.3 2.3-5.1 4.1-8.1 5.4-3.1 1.3-6.3 1.9-9.6 1.9h-50v-50h50c3.3 0 6.5 0.6 9.6 1.9 3 1.3 5.8 3.1 8.1 5.4 2.3 2.3 4.1 5.1 5.4 8.1 1.3 3.1 1.9 6.3 1.9 9.6z"/>
+</svg>
