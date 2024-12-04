@@ -259,14 +259,14 @@ $accordion-border-width: 3px;
   }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 767px) {
   header {
     .bg-light {
       background-color: transparent !important;
     }
     .navbar {
       padding: 0;
-      .container {
+      .container-md {
         background-color: #f8f9fa;
         padding: 1.5rem;
         .navbar-toggler-icon {
@@ -306,6 +306,8 @@ $accordion-border-width: 3px;
             border-bottom: 1px solid #b0acac;
           }
           .nav-item {
+            width: 100%;
+            text-align: center;
             &:last-child {
               padding-top: 20px;
             }

@@ -12134,62 +12134,66 @@ textarea.form-control-lg {
     border-top: var(--bs-accordion-border-width) solid var(--bs-accordion-border-color) !important;
   }
 }
-@media (max-width: 991px) {
+@media (max-width: 767px) {
   header .bg-light {
     background-color: transparent !important;
   }
   header .navbar {
     padding: 0;
   }
-  header .navbar .container {
+  header .navbar .container-md {
     background-color: #f8f9fa;
     padding: 1.5rem;
   }
-  header .navbar .container .navbar-toggler-icon {
+  header .navbar .container-md .navbar-toggler-icon {
     background-image: url("../assets/icons/icon-hamburger.svg");
   }
-  header .navbar .container.menu-open {
+  header .navbar .container-md.menu-open {
     background-color: rgba(47, 53, 79, 0.9);
     height: 100vh;
     display: flex;
     flex-direction: row;
     align-content: space-between;
   }
-  header .navbar .container.menu-open .navbar-toggler .navbar-toggler-icon {
+  header .navbar .container-md.menu-open .navbar-toggler .navbar-toggler-icon {
     background-image: url("../assets/icons/icon-hamburguer-cross-white-v2.svg");
     width: 1.5em;
   }
-  header .navbar .container .navbar-toggler {
+  header .navbar .container-md .navbar-toggler {
     box-shadow: none;
     border: 0;
     padding-right: 0;
   }
-  header .navbar .container .navbar-nav {
+  header .navbar .container-md .navbar-nav {
     text-align: center;
   }
-  header .navbar .container .navbar-nav .mt-mobile-social-icons {
+  header .navbar .container-md .navbar-nav .mt-mobile-social-icons {
     margin-top: 30vh;
   }
-  header .navbar .container .navbar-nav a.nav-link {
+  header .navbar .container-md .navbar-nav a.nav-link {
     color: white;
     padding: 20px 0;
   }
-  header .navbar .container .navbar-nav a.nav-link.first-nav-link {
+  header .navbar .container-md .navbar-nav a.nav-link.first-nav-link {
     border-top: 1px solid #b0acac;
   }
-  header .navbar .container .navbar-nav a.nav-link:last-child {
+  header .navbar .container-md .navbar-nav a.nav-link:last-child {
     border-bottom: 1px solid #b0acac;
   }
-  header .navbar .container .navbar-nav .nav-item:last-child {
+  header .navbar .container-md .navbar-nav .nav-item {
+    width: 100%;
+    text-align: center;
+  }
+  header .navbar .container-md .navbar-nav .nav-item:last-child {
     padding-top: 20px;
   }
-  header .navbar .container .navbar-nav .nav-item .btn-secondary {
+  header .navbar .container-md .navbar-nav .nav-item .btn-secondary {
     width: 100%;
     background-color: transparent;
     border-color: white;
   }
-  header .navbar .container .navbar-nav .nav-item .btn-secondary:active,
-  header .navbar .container .navbar-nav .nav-item .btn-secondary:hover {
+  header .navbar .container-md .navbar-nav .nav-item .btn-secondary:active,
+  header .navbar .container-md .navbar-nav .nav-item .btn-secondary:hover {
     color: white;
   }
 }
