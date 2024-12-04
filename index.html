@@ -12,8 +12,8 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-            <div class="container">
+        <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+            <div class="container-md">
                 <img src="assets/images/logo-bookmark.svg" alt="logo">
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -21,7 +21,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                    <ul class="navbar-nav gap-lg-4">
+                    <ul class="navbar-nav gap-md-3 gap-lg-4 align-items-center">
                         <li class="nav-item">
                             <a class="nav-link first-nav-link" aria-current="page" href="#features">FEATURES</a>
                         </li>
@@ -36,7 +36,7 @@
                                 LOGIN
                             </button>
                         </li>
-                        <li class="d-lg-none mt-mobile-social-icons">
+                        <li class="d-md-none mt-mobile-social-icons">
                             <ul
                                 class="nav col-lg-4 justify-content-center justify-content-lg-end list-unstyled d-flex mb-5">
                                 <li>
@@ -450,8 +450,8 @@
         // Menu hamburger
         document.addEventListener("DOMContentLoaded", function () {
             const navbarToggler = document.querySelector('.navbar-toggler');
-            const container = document.querySelector('.navbar .container');
-            const logo = document.querySelector('.navbar .container img');
+            const container = document.querySelector('.navbar .container-md');
+            const logo = document.querySelector('.navbar .container-md img');
             const iconHamburguer = document.querySelector('.navbar-toggler-icon');
 
             navbarToggler.addEventListener('click', function () {
